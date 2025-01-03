@@ -1,4 +1,21 @@
 /*BiTZC.css*/
+#title{
+    font-family:"Pretendard";
+    font-size:50px;
+    line-height:20px;
+}
+#bu_title{
+    font-family:"Pretendard";
+    font-size:25px;
+    line-height:5px;
+}
 .Intro{
-    color : #5064fa
+    color : #5064fa;
+    font-family:"Pretendard";
+}
+.Dos{
+    font-family:"Pretendard";
+}
+.Donts{
+    font-family:"Pretendard";
 }

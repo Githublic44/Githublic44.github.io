@@ -1,21 +1,127 @@
-/*BiTZC.css*/
-#title{
-    font-family:"Pretendard";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@500&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+html{
+    background-color:#1a1a33;
+}
+
+h1{
+    background-color:rgba(255, 255, 255, 00);
+    border-width:0px;
+    border-radius:5px;
+    margin-top:0;
+    margin-bottom:0;
+    padding-top:15px;
+    padding-bottom:15px;
+    text-align:center;
+    font-family:'IBM Plex Sans KR',sans-serif;
     font-size:50px;
-    line-height:20px;
+    color:#ffffff;
 }
-#bu_title{
-    font-family:"Pretendard";
-    font-size:25px;
-    line-height:5px;
+
+h2{
+    background-color:rgba(148, 148, 148, 0.318);
+    border-width:0px;
+    border-radius:5px;
+    margin-top:5px;
+    margin-bottom:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    text-align:center;
+    font-family:'IBM Plex Sans KR',sans-serif;
+    font-size:15px;
+    color:#ffffff;
 }
-.Intro{
-    color : #5064fa;
-    font-family:"Pretendard";
+
+.paragraph{
+    background-color:rgba(148, 148, 148, 0.192);
+    border-width:0px;
+    border-radius:5px;
+    margin-top:15px;
+    padding:10px;
 }
-.Dos{
-    font-family:"Pretendard";
+#t1{
+    color:#ffffff;
+    font-size:30px;
+    margin-top:15px;
+    margin-left:15px;
+    margin-right:0px;
+    margin-bottom:0px;
+    font-family:'IBM Plex Sans KR',sans-serif;
 }
-.Donts{
-    font-family:"Pretendard";
+
+#button1{
+    background-color:#5050ff;
+    border-radius:25px;
+    width:250px;
+    height:30px;
+    border-width:0px;
+    font-size:15px;
+    color:#ffffffff;
+    font-family:'IBM Plex Sans KR',sans-serif;
+    margin:10px;
+}
+#button1:hover{
+    background-color:#5070ff;
+    border-radius:25px;
+    width:250px;
+    height:30px;
+    border-width:0px;
+    font-size:15px;
+    color:#ffffffff;
+    font-family:'IBM Plex Sans KR',sans-serif;
+}
+
+#button2{
+    background-color:#ffae17;
+    border-radius:25px;
+    width:250px;
+    height:30px;
+    border-width:0px;
+    font-size:15px;
+    color:#ffffffff;
+    font-family:'IBM Plex Sans KR',sans-serif;
+    margin:10px;
+    margin-left:0px;
+}
+#button2:hover{
+    background-color:#ffbe5c;
+    border-radius:25px;
+    width:250px;
+    height:30px;
+    border-width:0px;
+    font-size:15px;
+    color:#ffffffff;
+    font-family:'IBM Plex Sans KR',sans-serif;
+}
+
+#button3{
+    background-color:#000000;
+    border-radius:25px;
+    width:250px;
+    height:30px;
+    border-width:0px;
+    font-size:15px;
+    color:#ffffffff;
+    font-family:'IBM Plex Sans KR',sans-serif;
+    margin:10px;
+    margin-left:0px;
+}
+#button3:hover{
+    background-color:#161616;
+    border-radius:25px;
+    width:250px;
+    height:30px;
+    border-width:0px;
+    font-size:15px;
+    color:#ffffffff;
+    font-family:'IBM Plex Sans KR',sans-serif;
+}
+
+#inp{
+    font-size:15px;
+    color:#ffffffff;
+    font-family:'IBM Plex Sans KR',sans-serif;
+    margin-top:0px;
+    margin-bottom:0px;
 }

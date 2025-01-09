@@ -4,24 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href=".\style.css">
     <title>Document</title>
 </head>
 <body>
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
     <h1 id="title">🌟코딩클럽🌟</h1>
     <h2 id="butitle">[공지] 📢• 방문을 환영합니다! [디스코드 방문하기]를 눌러서 서버에 참여하세요!</h2>
     <strong id="t1">•서버 설명</strong>
-    <input type="button" id="button1" value="디스코드 방문하기👀">
-    <input type="button" id="button2" value="스크래치 방문하기😺">
-    <input type="button" id="button3" value="깃허브 방문하기🐈‍⬛">
+    <input type="button" id="button1" value="디스코드 방문하기👀" onclick="openwindow('discord')">
+    <input type="button" id="button2" value="스크래치 방문하기😺" onclick="openwindow('scratch')">
+    <input type="button" id="button3" value="깃허브 방문하기🐈‍⬛" onclick="openwindow('github')">
     <div class="paragraph">
-        <p id="inp">사이트에는 아직 js 적용이 안됐습니다... 향후 적용할 예정입니다.<br>
+        <p id="inp">사이트에는 아직 js 적용이 되지 않았습니다... 향후 적용할 예정입니다.<br>
                     [코딩클럽]은 컴퓨터나 프로그래밍에 관련된 지식을 나누거나, 프로젝트를 공유할 수 있는 곳입니다.<br>
                     현재 #수다, #Python, #C, #Rust, #Javascript, #Scratch 채널이 개설되어 있고, 멤버들은 직접 새 채널을 개설할 수 있습니다.<br>
                     많은 관심 부탁드립니다. -BiTZC-
         </p>
     </div>
     <strong id="t2">•채널 소개</strong>
+    <div id="ti1">
+        <strong class="talk">⭐환영방</strong>
+        <p class="st">어이 신입...이 아니고 새로 오신 분들을 환영하는 채널입니다. 디스코드 방문하기 버튼을 눌러
+            채널을 방문해보세용
+        </p>
+    </div>
+    <div id="ti2">
+        <strong class="talk">🖥️프로그래밍</strong>
+        <p class="st">프로그래밍 언어나 알고리즘에 대해 소통하는 공간입니다.</p>
+    </div>
+    <div id="ti3">
+        <strong class="talk">🆚바주카포럼</strong>
+        <p class="st">이름이 왜 바주카포인지는 주인장도 모르지만,
+            여러분들이 만든 프로젝트나 제작 중인 게임 등을 공유하는 곳임은 확실합니다.
+        </p>
+    </div>
+    <div id="ti4">
+        <strong class="talk">❓언어 제안하기</strong>
+        <p class="st">원래는 새 언어 채널을 만들 때 사용하려 했으나.. @everyone이 채널을 개설할 수 있게 되어,
+            역할을 제안하는 채널로 변경되었습니다. 이름 바꾸기 귀찴
+        </p>
+    </div>
+    <div id="ti5">
+        <strong class="talk">💬수다</strong>
+        <p class="st">주제와 관련 없는 것들에 대해 소통하는 공간입니다.</p>
+    </div>
+    <div id="ti6">
+        <strong class="talk">💬질문방</strong>
+        <p class="st">고수님들한테 질문하는 곳입니다. 참고로 저는 고수가 아닙니다.</p>
+    </div>
 </body>
 </html>
